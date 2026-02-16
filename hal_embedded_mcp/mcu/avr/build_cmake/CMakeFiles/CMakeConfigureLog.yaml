@@ -1,0 +1,2119 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_program)"
+    mode: "program"
+    variable: "AVR_GCC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc"
+    candidate_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+      - "C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/avr-gcc.exe/"
+    searched_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc"
+      - "C:/Windows/System32/avr-gcc.com"
+      - "C:/Windows/System32/avr-gcc.exe"
+      - "C:/Windows/System32/avr-gcc"
+      - "C:/Windows/avr-gcc.com"
+      - "C:/Windows/avr-gcc.exe"
+      - "C:/Windows/avr-gcc"
+      - "C:/Windows/System32/wbem/avr-gcc.com"
+      - "C:/Windows/System32/wbem/avr-gcc.exe"
+      - "C:/Windows/System32/wbem/avr-gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc"
+      - "C:/Windows/System32/OpenSSH/avr-gcc.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc"
+      - "C:/Program Files/Git/cmd/avr-gcc.com"
+      - "C:/Program Files/Git/cmd/avr-gcc.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc"
+      - "C:/Program Files/CMake/bin/avr-gcc.com"
+      - "C:/Program Files/CMake/bin/avr-gcc.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc"
+      - "C:/Program Files/nodejs/avr-gcc.com"
+      - "C:/Program Files/nodejs/avr-gcc.exe"
+      - "C:/Program Files/nodejs/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc"
+      - "C:/msys64/ucrt64/bin/avr-gcc.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_program)"
+    mode: "program"
+    variable: "AVR_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objcopy"
+    candidate_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+      - "C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/avr-objcopy.exe/"
+    searched_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-objcopy.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-objcopy.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-objcopy"
+      - "C:/Windows/System32/avr-objcopy.com"
+      - "C:/Windows/System32/avr-objcopy.exe"
+      - "C:/Windows/System32/avr-objcopy"
+      - "C:/Windows/avr-objcopy.com"
+      - "C:/Windows/avr-objcopy.exe"
+      - "C:/Windows/avr-objcopy"
+      - "C:/Windows/System32/wbem/avr-objcopy.com"
+      - "C:/Windows/System32/wbem/avr-objcopy.exe"
+      - "C:/Windows/System32/wbem/avr-objcopy"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-objcopy.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-objcopy.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-objcopy"
+      - "C:/Windows/System32/OpenSSH/avr-objcopy.com"
+      - "C:/Windows/System32/OpenSSH/avr-objcopy.exe"
+      - "C:/Windows/System32/OpenSSH/avr-objcopy"
+      - "C:/Program Files/Git/cmd/avr-objcopy.com"
+      - "C:/Program Files/Git/cmd/avr-objcopy.exe"
+      - "C:/Program Files/Git/cmd/avr-objcopy"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-objcopy.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-objcopy.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-objcopy"
+      - "C:/Program Files/CMake/bin/avr-objcopy.com"
+      - "C:/Program Files/CMake/bin/avr-objcopy.exe"
+      - "C:/Program Files/CMake/bin/avr-objcopy"
+      - "C:/Program Files/nodejs/avr-objcopy.com"
+      - "C:/Program Files/nodejs/avr-objcopy.exe"
+      - "C:/Program Files/nodejs/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-objcopy"
+      - "C:/msys64/ucrt64/bin/avr-objcopy.com"
+      - "C:/msys64/ucrt64/bin/avr-objcopy.exe"
+      - "C:/msys64/ucrt64/bin/avr-objcopy"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-objcopy.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-objcopy.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-objcopy.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-objcopy.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-objcopy"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objcopy.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The target system is: Generic -  - avr
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
+      - "C:/Program Files/nodejs/mingw32-make.exe.com"
+      - "C:/Program Files/nodejs/mingw32-make.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/mingw32-make.exe.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/mingw32-make.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/mingw32-make.exe.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/mingw32-make.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/msys64/ucrt64/bin/mingw32-make.exe.com"
+    found: "C:/msys64/ucrt64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/4.2.1/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ar"
+      - "ar"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ar.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ranlib.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-strip"
+      - "strip"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-strip.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ld"
+      - "ld"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ld.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-nm"
+      - "nm"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-nm.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objdump"
+      - "objdump"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objdump.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-readelf"
+      - "readelf"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-readelf.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-dlltool"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-dlltool.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-dlltool.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-dlltool"
+      - "C:/Windows/System32/avr-dlltool.com"
+      - "C:/Windows/System32/avr-dlltool.exe"
+      - "C:/Windows/System32/avr-dlltool"
+      - "C:/Windows/avr-dlltool.com"
+      - "C:/Windows/avr-dlltool.exe"
+      - "C:/Windows/avr-dlltool"
+      - "C:/Windows/System32/wbem/avr-dlltool.com"
+      - "C:/Windows/System32/wbem/avr-dlltool.exe"
+      - "C:/Windows/System32/wbem/avr-dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-dlltool"
+      - "C:/Windows/System32/OpenSSH/avr-dlltool.com"
+      - "C:/Windows/System32/OpenSSH/avr-dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/avr-dlltool"
+      - "C:/Program Files/Git/cmd/avr-dlltool.com"
+      - "C:/Program Files/Git/cmd/avr-dlltool.exe"
+      - "C:/Program Files/Git/cmd/avr-dlltool"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-dlltool.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-dlltool.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-dlltool"
+      - "C:/Program Files/CMake/bin/avr-dlltool.com"
+      - "C:/Program Files/CMake/bin/avr-dlltool.exe"
+      - "C:/Program Files/CMake/bin/avr-dlltool"
+      - "C:/Program Files/nodejs/avr-dlltool.com"
+      - "C:/Program Files/nodejs/avr-dlltool.exe"
+      - "C:/Program Files/nodejs/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-dlltool"
+      - "C:/msys64/ucrt64/bin/avr-dlltool.com"
+      - "C:/msys64/ucrt64/bin/avr-dlltool.exe"
+      - "C:/msys64/ucrt64/bin/avr-dlltool"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-dlltool.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-dlltool.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/dlltool"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/dlltool.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/dlltool.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/dlltool"
+      - "C:/Windows/System32/dlltool.com"
+      - "C:/Windows/System32/dlltool.exe"
+      - "C:/Windows/System32/dlltool"
+      - "C:/Windows/dlltool.com"
+      - "C:/Windows/dlltool.exe"
+      - "C:/Windows/dlltool"
+      - "C:/Windows/System32/wbem/dlltool.com"
+      - "C:/Windows/System32/wbem/dlltool.exe"
+      - "C:/Windows/System32/wbem/dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "C:/Windows/System32/OpenSSH/dlltool.com"
+      - "C:/Windows/System32/OpenSSH/dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/dlltool"
+      - "C:/Program Files/Git/cmd/dlltool.com"
+      - "C:/Program Files/Git/cmd/dlltool.exe"
+      - "C:/Program Files/Git/cmd/dlltool"
+      - "C:/Program Files/Docker/Docker/resources/bin/dlltool.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/dlltool.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/dlltool"
+      - "C:/Program Files/CMake/bin/dlltool.com"
+      - "C:/Program Files/CMake/bin/dlltool.exe"
+      - "C:/Program Files/CMake/bin/dlltool"
+      - "C:/Program Files/nodejs/dlltool.com"
+      - "C:/Program Files/nodejs/dlltool.exe"
+      - "C:/Program Files/nodejs/dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/dlltool"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-addr2line.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-tapi"
+      - "tapi"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-tapi"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-tapi.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-tapi.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-tapi"
+      - "C:/Windows/System32/avr-tapi.com"
+      - "C:/Windows/System32/avr-tapi.exe"
+      - "C:/Windows/System32/avr-tapi"
+      - "C:/Windows/avr-tapi.com"
+      - "C:/Windows/avr-tapi.exe"
+      - "C:/Windows/avr-tapi"
+      - "C:/Windows/System32/wbem/avr-tapi.com"
+      - "C:/Windows/System32/wbem/avr-tapi.exe"
+      - "C:/Windows/System32/wbem/avr-tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-tapi"
+      - "C:/Windows/System32/OpenSSH/avr-tapi.com"
+      - "C:/Windows/System32/OpenSSH/avr-tapi.exe"
+      - "C:/Windows/System32/OpenSSH/avr-tapi"
+      - "C:/Program Files/Git/cmd/avr-tapi.com"
+      - "C:/Program Files/Git/cmd/avr-tapi.exe"
+      - "C:/Program Files/Git/cmd/avr-tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-tapi"
+      - "C:/Program Files/CMake/bin/avr-tapi.com"
+      - "C:/Program Files/CMake/bin/avr-tapi.exe"
+      - "C:/Program Files/CMake/bin/avr-tapi"
+      - "C:/Program Files/nodejs/avr-tapi.com"
+      - "C:/Program Files/nodejs/avr-tapi.exe"
+      - "C:/Program Files/nodejs/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-tapi"
+      - "C:/msys64/ucrt64/bin/avr-tapi.com"
+      - "C:/msys64/ucrt64/bin/avr-tapi.exe"
+      - "C:/msys64/ucrt64/bin/avr-tapi"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-tapi.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-tapi.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-tapi"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/tapi"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/tapi.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/tapi.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Qt/6.8.3/mingw_64/bin/tapi.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/tapi.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/tapi"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/tapi"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/tapi.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/tapi.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-7.3"
+      - "avr-gcc-ar-7"
+      - "avr-gcc-ar7"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7.3"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7.3.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7.3"
+      - "C:/Windows/System32/avr-gcc-ar-7.3.com"
+      - "C:/Windows/System32/avr-gcc-ar-7.3.exe"
+      - "C:/Windows/System32/avr-gcc-ar-7.3"
+      - "C:/Windows/avr-gcc-ar-7.3.com"
+      - "C:/Windows/avr-gcc-ar-7.3.exe"
+      - "C:/Windows/avr-gcc-ar-7.3"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7.3.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7.3.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7.3"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7.3.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7.3.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7.3"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7.3.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7.3.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7.3"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7.3.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7.3"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7.3.com"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7.3.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7.3"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7.3.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7.3.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7.3"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7.3.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar-7"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar-7"
+      - "C:/Windows/System32/avr-gcc-ar-7.com"
+      - "C:/Windows/System32/avr-gcc-ar-7.exe"
+      - "C:/Windows/System32/avr-gcc-ar-7"
+      - "C:/Windows/avr-gcc-ar-7.com"
+      - "C:/Windows/avr-gcc-ar-7.exe"
+      - "C:/Windows/avr-gcc-ar-7"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ar-7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar-7"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar-7"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar-7"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar-7"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar-7"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7.com"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar-7"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar-7"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar-7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar7"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar7.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar7.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ar7"
+      - "C:/Windows/System32/avr-gcc-ar7.com"
+      - "C:/Windows/System32/avr-gcc-ar7.exe"
+      - "C:/Windows/System32/avr-gcc-ar7"
+      - "C:/Windows/avr-gcc-ar7.com"
+      - "C:/Windows/avr-gcc-ar7.exe"
+      - "C:/Windows/avr-gcc-ar7"
+      - "C:/Windows/System32/wbem/avr-gcc-ar7.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ar7.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ar7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ar7"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar7.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar7.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ar7"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar7.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar7.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ar7"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ar7"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar7.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar7.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ar7"
+      - "C:/Program Files/nodejs/avr-gcc-ar7.com"
+      - "C:/Program Files/nodejs/avr-gcc-ar7.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ar7"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar7.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar7.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ar7"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar7.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar7.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ar7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-7.3"
+      - "avr-gcc-ranlib-7"
+      - "avr-gcc-ranlib7"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+    searched_directories:
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7.3"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7.3"
+      - "C:/Windows/System32/avr-gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/avr-gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/avr-gcc-ranlib-7.3"
+      - "C:/Windows/avr-gcc-ranlib-7.3.com"
+      - "C:/Windows/avr-gcc-ranlib-7.3.exe"
+      - "C:/Windows/avr-gcc-ranlib-7.3"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7.3"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7.3.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7.3.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7.3"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7.3.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7.3"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7.3"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7.3.com"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7.3.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7.3"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7.3"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7.3.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7.3.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7.3"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib-7"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib-7"
+      - "C:/Windows/System32/avr-gcc-ranlib-7.com"
+      - "C:/Windows/System32/avr-gcc-ranlib-7.exe"
+      - "C:/Windows/System32/avr-gcc-ranlib-7"
+      - "C:/Windows/avr-gcc-ranlib-7.com"
+      - "C:/Windows/avr-gcc-ranlib-7.exe"
+      - "C:/Windows/avr-gcc-ranlib-7"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib-7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib-7"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib-7"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib-7"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib-7"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib-7"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7.com"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib-7"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib-7"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib-7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib7"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib7.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib7.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avr-gcc-ranlib7"
+      - "C:/Windows/System32/avr-gcc-ranlib7.com"
+      - "C:/Windows/System32/avr-gcc-ranlib7.exe"
+      - "C:/Windows/System32/avr-gcc-ranlib7"
+      - "C:/Windows/avr-gcc-ranlib7.com"
+      - "C:/Windows/avr-gcc-ranlib7.exe"
+      - "C:/Windows/avr-gcc-ranlib7"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib7.com"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib7.exe"
+      - "C:/Windows/System32/wbem/avr-gcc-ranlib7"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib7.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib7.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avr-gcc-ranlib7"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib7.com"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib7.exe"
+      - "C:/Windows/System32/OpenSSH/avr-gcc-ranlib7"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib7.com"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib7.exe"
+      - "C:/Program Files/Git/cmd/avr-gcc-ranlib7"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib7.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib7.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avr-gcc-ranlib7"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib7.com"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib7.exe"
+      - "C:/Program Files/CMake/bin/avr-gcc-ranlib7"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib7.com"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib7.exe"
+      - "C:/Program Files/nodejs/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avr-gcc-ranlib7"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib7.com"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib7.exe"
+      - "C:/msys64/ucrt64/bin/avr-gcc-ranlib7"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib7.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib7.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib7.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib7.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avr-gcc-ranlib7"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy"
+      binary: "C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_bfa2e/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bfa2e.dir\\build.make CMakeFiles/cmTC_bfa2e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy'
+        Building C object CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe   -v -o CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        Reading specs from c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/device-specs/specs-avr2
+        COLLECT_GCC=C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe
+        Target: avr
+        Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr --host=i686-w64-mingw32
+        Thread model: single
+        gcc version 7.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
+         c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/cc1.exe -quiet -v -iprefix c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -mn-flash=6 -mskip-bug -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccEY3zl1.s
+        GNU C11 (GCC) version 7.3.0 (avr)
+        	compiled by GNU C version 4.8.2, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/../../../../avr/sys-include"
+        ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/include"
+        ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/include-fixed"
+        ignoring nonexistent directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/../../../../avr/sys-include"
+        ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/../../../../avr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/include
+         c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/include-fixed
+         c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/../../../../avr/include
+        End of search list.
+        GNU C11 (GCC) version 7.3.0 (avr)
+        	compiled by GNU C version 4.8.2, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 32f97fe975a92e7cd596eb44a242e228
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
+         c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/as.exe -mmcu=avr2 -o CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccEY3zl1.s
+        COMPILER_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/
+        LIBRARY_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
+        Linking C executable cmTC_bfa2e
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bfa2e.dir\\link.txt --verbose=1
+        Using built-in specs.
+        Reading specs from c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/device-specs/specs-avr2
+        COLLECT_GCC=C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe
+        COLLECT_LTO_WRAPPER=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/lto-wrapper.exe
+        Target: avr
+        Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr --host=i686-w64-mingw32
+        Thread model: single
+        gcc version 7.3.0 (GCC) 
+        COMPILER_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/
+        LIBRARY_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/;c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfa2e' '-specs=device-specs/specs-avr2'
+         c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/collect2.exe -plugin c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/liblto_plugin-0.dll -plugin-opt=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccYGW0tf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_bfa2e -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0 -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfa2e' '-specs=device-specs/specs-avr2'
+        C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj -o cmTC_bfa2e
+        mingw32-make[1]: Leaving directory 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/include]
+          add: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/include-fixed]
+          add: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/include]
+        end of search list found
+        collapse include dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/include] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include]
+        collapse include dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/include-fixed] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed]
+        collapse include dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/include] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include]
+        implicit include dirs: [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include;C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed;C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_bfa2e/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bfa2e.dir\\build.make CMakeFiles/cmTC_bfa2e.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy']
+        ignore line: [Building C object CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe   -v -o CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/device-specs/specs-avr2]
+        ignore line: [COLLECT_GCC=C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c c++ --prefix=/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr --host=i686-w64-mingw32]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 7.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
+        ignore line: [ c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/cc1.exe -quiet -v -iprefix c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -mn-flash=6 -mskip-bug -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccEY3zl1.s]
+        ignore line: [GNU C11 (GCC) version 7.3.0 (avr)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/../../../../avr/sys-include"]
+        ignore line: [ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/include"]
+        ignore line: [ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/../../../../avr/sys-include"]
+        ignore line: [ignoring duplicate directory "c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/../../lib/gcc/avr/7.3.0/../../../../avr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/include]
+        ignore line: [ c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/include-fixed]
+        ignore line: [ c:\\users\\lenovo\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\../lib/gcc/avr/7.3.0/../../../../avr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (GCC) version 7.3.0 (avr)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 32f97fe975a92e7cd596eb44a242e228]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
+        ignore line: [ c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/as.exe -mmcu=avr2 -o CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccEY3zl1.s]
+        ignore line: [COMPILER_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bfa2e.dir\\CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
+        ignore line: [Linking C executable cmTC_bfa2e]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bfa2e.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/device-specs/specs-avr2]
+        ignore line: [COLLECT_GCC=C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/lto-wrapper.exe]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c c++ --prefix=/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr --host=i686-w64-mingw32]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 7.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/]
+        ignore line: [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfa2e' '-specs=device-specs/specs-avr2']
+        link line: [ c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/collect2.exe -plugin c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/liblto_plugin-0.dll -plugin-opt=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccYGW0tf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_bfa2e -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0 -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc -Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+          arg [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../libexec/gcc/avr/7.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\LENOVO\\AppData\\Local\\Temp\\ccYGW0tf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bfa2e] ==> ignore
+          arg [-Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0] ==> dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0]
+          arg [-Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc] ==> dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc]
+          arg [-Lc:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib] ==> dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib]
+          arg [CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfa2e' '-specs=device-specs/specs-avr2']
+        ignore line: [C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_bfa2e.dir/CMakeCCompilerABI.c.obj -o cmTC_bfa2e]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/CMakeScratch/TryCompile-k4nrfy']
+        ignore line: []
+        ignore line: []
+        collapse library dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0]
+        collapse library dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc]
+        collapse library dir [c:/users/lenovo/appdata/local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib] ==> [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/lib]
+        implicit libs: [gcc;m;c]
+        implicit objs: []
+        implicit dirs: [C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0;C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc;C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:34 (find_program)"
+    mode: "program"
+    variable: "AVRDUDE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avrdude"
+    candidate_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Qt/6.8.3/mingw_64/bin/"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/"
+      - "/bin/"
+      - "C:/Users/LENOVO/Private_Cletus/hal_embedded_mcp_release/hal_embedded_mcp/mcu/avr/avrdude.exe/"
+    searched_directories:
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avrdude.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avrdude.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin/avrdude"
+      - "C:/Windows/System32/avrdude.com"
+      - "C:/Windows/System32/avrdude.exe"
+      - "C:/Windows/System32/avrdude"
+      - "C:/Windows/avrdude.com"
+      - "C:/Windows/avrdude.exe"
+      - "C:/Windows/avrdude"
+      - "C:/Windows/System32/wbem/avrdude.com"
+      - "C:/Windows/System32/wbem/avrdude.exe"
+      - "C:/Windows/System32/wbem/avrdude"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avrdude.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avrdude.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/avrdude"
+      - "C:/Windows/System32/OpenSSH/avrdude.com"
+      - "C:/Windows/System32/OpenSSH/avrdude.exe"
+      - "C:/Windows/System32/OpenSSH/avrdude"
+      - "C:/Program Files/Git/cmd/avrdude.com"
+      - "C:/Program Files/Git/cmd/avrdude.exe"
+      - "C:/Program Files/Git/cmd/avrdude"
+      - "C:/Program Files/Docker/Docker/resources/bin/avrdude.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/avrdude.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/avrdude"
+      - "C:/Program Files/CMake/bin/avrdude.com"
+      - "C:/Program Files/CMake/bin/avrdude.exe"
+      - "C:/Program Files/CMake/bin/avrdude"
+      - "C:/Program Files/nodejs/avrdude.com"
+      - "C:/Program Files/nodejs/avrdude.exe"
+      - "C:/Program Files/nodejs/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/codeBin/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Microsoft/WindowsApps/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Antigravity/bin/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/avrdude"
+      - "C:/msys64/ucrt64/bin/avrdude.com"
+      - "C:/msys64/ucrt64/bin/avrdude.exe"
+      - "C:/msys64/ucrt64/bin/avrdude"
+      - "C:/Qt/6.8.3/mingw_64/bin/avrdude.com"
+      - "C:/Qt/6.8.3/mingw_64/bin/avrdude.exe"
+      - "C:/Qt/6.8.3/mingw_64/bin/avrdude"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Roaming/npm/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Programs/cursor/resources/app/bin/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avrdude.com"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avrdude.exe"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avrdude"
+      - "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude.com"
+    found: "C:/Users/LENOVO/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.1.8-hotspot\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Qt\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Roaming\\npm"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin"
+        - "C:\\Users\\LENOVO\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\8.0.0-arduino1\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/hal_mcp_avr"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+...
