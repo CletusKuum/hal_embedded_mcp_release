@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/kuumc/Private_Me/hal_drivers/gpio_driver/examples/avr/build_cmake/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

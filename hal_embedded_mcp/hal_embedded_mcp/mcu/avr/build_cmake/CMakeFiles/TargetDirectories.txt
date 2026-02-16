@@ -1,0 +1,4 @@
+C:/Users/LENOVO/Private_Cletus/hal_drivers/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/hal_mcp_avr.elf.dir
+C:/Users/LENOVO/Private_Cletus/hal_drivers/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/flash.dir
+C:/Users/LENOVO/Private_Cletus/hal_drivers/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/edit_cache.dir
+C:/Users/LENOVO/Private_Cletus/hal_drivers/hal_embedded_mcp/mcu/avr/build_cmake/CMakeFiles/rebuild_cache.dir

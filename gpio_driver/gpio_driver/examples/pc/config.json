@@ -1,0 +1,14 @@
+{
+    "pins": [
+        {
+            "name": "LED1",
+            "direction": "OUTPUT",
+            "pull": "NONE"
+        },
+        {
+            "name": "BUTTON1",
+            "direction": "INPUT",
+            "pull": "UP"
+        }
+    ]
+}

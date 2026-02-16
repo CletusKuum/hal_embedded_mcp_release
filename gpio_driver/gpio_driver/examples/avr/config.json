@@ -1,0 +1,22 @@
+{
+    "pins": [
+        {
+            "name": "LED1",
+            "direction": "OUTPUT",
+            "pull": "NONE",
+            "avr": {
+                "port": "B",
+                "pin": 5
+            }
+        },
+        {
+            "name": "BUTTON1",
+            "direction": "INPUT",
+            "pull": "UP",
+            "avr": {
+                "port": "B",
+                "pin": 0
+            }
+        }
+    ]
+}
