@@ -25,6 +25,43 @@ Here you keep **one generic firmware** (a small command executor). Complex seque
 
 So it’s not “MCU + Python glued together” — it’s a defined path: **MCP ↔ server ↔ serial ↔ MCU ↔ HAL ↔ platform**.
 
+**Not a general-purpose HAL.** This is a minimal stack to control MCU GPIO from MCP clients and iterate on behavior without reflashing. For a broad hardware-abstraction library, see vendor HALs (e.g. STM32Cube) or cross-platform ecosystems.
+
+## Features
+
+- **Config-driven tools** – Pin names and tool list come from `config.json`; the server and MCU stay in sync via codegen. The AI only sees valid pins (e.g. `LED1`, `BUTTON1`).
+- **Validation before hardware** – The server rejects unknown `pin_id` and invalid inputs before sending anything to the MCU. Tool calls return `ERR unknown pin` or the MCU response; no raw register writes from the AI.
+- **Error handling** – The server returns MCU responses (`OK`, `GPIO_READ <pin> <0|1>`, `ERR ...`) or a clear message if the MCU does not respond (e.g. port in use, board not connected).
+
+## Supported hardware (v1)
+
+| Component      | Protocol        | Status   |
+|----------------|-----------------|----------|
+| GPIO (digital)| UART line cmd   | Working  |
+| UART (serial) | Host to MCU     | Working  |
+| I2C / ADC     | —               | Not in v1|
+
+Pins and directions are defined in `config/config.json`; the MCU firmware validates pin names before executing.
+
+## Safety / validation
+
+The MCP server acts as a **guardrail layer**: it only forwards tool calls whose parameters pass validation. For `gpio_write`, `pin_id` must be in the generated pin list (from config); `value` is a boolean (high/low). For `gpio_read`, `pin_id` must be valid. Invalid calls get an immediate `ERR` response and are never sent to the MCU. The firmware also validates commands and pins before touching hardware. See [docs/SAFETY_AND_VALIDATION.md](docs/SAFETY_AND_VALIDATION.md) for details.
+
+## Example: tool definition
+
+Tools are defined in Python and exposed to any MCP client (Cursor, Claude Desktop, etc.):
+
+```python
+@mcp.tool()
+def gpio_write(pin_id: str, value: bool) -> str:
+    """Set a GPIO pin high (True) or low (False). pin_id must be one of the configured pins."""
+    if pin_id not in MCP_PIN_NAMES:
+        return f"ERR unknown pin. Allowed: {', '.join(MCP_PIN_NAMES)}"
+    return _send_cmd(f"gpio_write {pin_id} {1 if value else 0}")
+```
+
+Pin names (`MCP_PIN_NAMES`) are generated from `config.json`, so adding a new pin is a config change and codegen run, not hand-edited tool code.
+
 ## Goal
 
 - Wrap the existing HAL Drivers in the MCP protocol.

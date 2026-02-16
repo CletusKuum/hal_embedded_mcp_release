@@ -28,7 +28,9 @@ Changing timing or sequences usually means editing firmware, rebuilding, reflash
 | helper_utils | Helpers used by the firmware build (do not remove). |
 
 **Architecture and data flow:** [hal_embedded_mcp/ARCHITECTURE.md](hal_embedded_mcp/ARCHITECTURE.md).  
-**Why this exists:** [hal_embedded_mcp/docs/OVERVIEW.md](hal_embedded_mcp/docs/OVERVIEW.md).
+**Why this exists:** [hal_embedded_mcp/docs/OVERVIEW.md](hal_embedded_mcp/docs/OVERVIEW.md).  
+**Features, supported hardware, safety, and tool example:** [hal_embedded_mcp/README.md](hal_embedded_mcp/README.md) (Features, Supported hardware (v1), Safety / validation, Example: tool definition).  
+**Safety and validation details:** [hal_embedded_mcp/docs/SAFETY_AND_VALIDATION.md](hal_embedded_mcp/docs/SAFETY_AND_VALIDATION.md).
 
 ---
 
